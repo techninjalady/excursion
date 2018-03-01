@@ -1,15 +1,37 @@
-html{
+*{
   background-color: black;
   text-align: center;
+  font-family: Verdana;
 }
 
-h1 {
-  font-family: Verdana;
+.title {
+  font-size: 50px;
   color: white;
   font-weight: Normal;
 }
 
-h6 {
+.subtitle {
+  font-size: 42px;
+  color: white;
+  font-weight: 300;
+}
+
+.link {
   color:aquamarine;
-  font-size: 16px
+  font-size: 16px;
+}
+
+a {
+  color:aquamarine;
+}
+
+.description{
+  font-size: 21px;
+  color:gray;
+}
+
+.footer{
+  text-align: right;
+  font-size: 21px;
+  color:gray;
 }
